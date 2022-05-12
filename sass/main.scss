@@ -1,0 +1,123 @@
+#logo{
+    width: 150px;
+    height: 60px;
+}
+.start-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    color: rgb(220, 172, 109);
+}
+// .container-fluid{
+//     background-color: rgb(220, 172, 109);
+// }
+.side{
+    float: left;
+    width: 20%;
+    height: 520px;
+    background-color: rgb(187, 241, 241);
+}
+.section{
+    background-color: rgb(117, 240, 154);
+    width:auto;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 5px;
+    width: 750px;
+    height: 510px;
+    background-color: aliceblue;
+}
+// .start-div{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+// }
+.footer{
+    width: auto;
+    height: 70px;
+    background-color: rgb(241, 211, 162);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer div{
+    width: 40%;
+    height: 60px;
+    background-color: white;
+    margin: 2px;
+    font-size: small;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .form-control{
+        width: 88%;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .main-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .side{
+        width: 100%;
+        height: 100px;
+    }
+    .section{
+        height: 500px;
+        width: 100%;
+    }
+    .container{
+        height: 500px;
+        margin-top: 0px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    
+    .footer div{
+        width: 98%;
+        height: 40px;
+        font-size:12px
+    }
+}
+@media only screen and (max-width: 580px){
+    .container{
+        width: auto;
+        margin-top: 0px;
+    }
+    .footer div{
+        width: 98%;
+        height: 30px;
+        font-size:10px
+    }
+}
+@media only screen and (max-width: 320px) {
+    .button-container{
+        display: flex;
+        justify-content: start;
+        margin-left: 0px;
+     }
+    .section{
+        height: 500px;
+    }
+    .container{
+        margin-top: 0px;
+        height: 500px;
+    }
+    .side{
+        width: 100%;
+        height: 60px;
+    }
+    .side h2{
+        font-size: medium;
+    }
+    .footer div{
+        width: 95%;
+        height: 30px;
+        font-size:8px;
+    }
+}
